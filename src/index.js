@@ -1,7 +1,6 @@
 import photosTpl from "./templates/hits.hbs";
 import NewsApiService from "./js/news-service";
 
-
 const refs = {
   searchForm: document.querySelector('.search-form'),
   photosContainer: document.querySelector('.gallery'),
@@ -10,7 +9,6 @@ const refs = {
 const newsApiService = new NewsApiService();
 
 console.log(newsApiService); 
-
 
 refs.searchForm.addEventListener('submit', onSearch);
 refs.loadMoreBtn.addEventListener('click', onLoadMore);

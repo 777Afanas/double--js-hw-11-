@@ -18,3 +18,16 @@ img {
     display: block;
     max-width: 30%;
 }
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-bottom: 24px;
+}
+
+.load-more {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
